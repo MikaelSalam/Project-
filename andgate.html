@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html="en" data-bs-theme="dark">
+<head>
+    <title>FOC</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  body{
+    background-image: url('bg.jpg');
+	background-size: cover;
+	background-position: center;
+    height: 109vh;
+	
+  }
+  </style>
+</head>
+<body>
+
+<div class="p-5 bg-primary text-white text-center text-white">
+  <h1>Fundamentals Of Computing<br>Project 2:AND Gate</h1>
+</div>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid justify-content-center">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+       <a class="nav-link active" href="project.html">Back Home</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+	<style>
+.button {
+  background-color: #008CBA; /* Blue */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<script src = "javascript.js"></script>
+<script> 
+
+</script>
+
+ <button class="button" onclick = "and()">Run</button>
+<p>
+
+<table style="width:100%">
+
+  <tr>
+    <td>
+	<img src="https://www.iconsdb.com/icons/preview/red/button-off-xxl.png"  id="toggleImage" onclick="toggleImage(); toggleInputOne();"/>
+	<br>
+    <img src="https://www.iconsdb.com/icons/preview/red/button-off-xxl.png"  id="toggleImage2" onclick="toggleImage2(); toggleInputTwo();"/> 
+</td>
+    <td><img id="andGate" src="and2off.PNG" ></td>
+  </tr>
+
+</table>
+</p>
+
+<div class="mt-5 p-4 bg-black text-white text-center">
+  <p>@ powered by UB</p>
+</div>
+</body>
+</html>
